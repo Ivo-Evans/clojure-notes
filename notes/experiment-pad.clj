@@ -1,3 +1,14 @@
+(def my-map {:foo 1 'bar 2})
+(:foo my-map)
+('bar my-map)
+(get my-map :foo)
+(get my-map 'bar)
+(my-map :foo)
+(my-map 'bar)
+
+
+(let [foo 'bar] (println foo 'bar (= foo (symbol "bar"))))
+
 (str \h \e \l \l \o \  \w \o \r \l \d)
 (#(* 2))
 

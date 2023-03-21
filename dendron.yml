@@ -81,6 +81,8 @@ preview:
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
+    siteUrl: https://ivo-evans.github.io
+    assetsPrefix: /clojure-notes
     enableFMTitle: true
     enableNoteTitleForLink: true
     enablePrettyRefs: true
