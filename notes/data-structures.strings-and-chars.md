@@ -2,7 +2,7 @@
 id: vm398kbfqpou8bvoooq787m
 title: Strings and Chars
 desc: ''
-updated: 1679426551584
+updated: 1679427159670
 created: 1678917336845
 ---
 
@@ -14,7 +14,7 @@ The syntax for strings is the double-quote:
 "hello world"
 ```
 
-The single quote is not for strings. It is used to tell the reader to evaluate but not read the next form - useful for macros. 
+The single quote is not for strings. It is used to tell the reader to evaluate but not read the next form. 
 
 
 The syntax for Clojure chars is the backslash:
