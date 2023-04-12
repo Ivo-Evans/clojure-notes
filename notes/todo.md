@@ -2,7 +2,7 @@
 id: 9swzcoaavjw4bzklg2iemy9
 title: Todo
 desc: ''
-updated: 1679429230508
+updated: 1681312579884
 created: 1678723806473
 ---
 - interop.java
@@ -16,3 +16,11 @@ created: 1678723806473
 - flow control
  - if and its else branch
  - if-let and if-some - expressions vs statements. side-effects.
+ - truthiness
+- ecosystem
+ - lein
+ - dependencies
+ - babashka
+ - version managers
+- metaprogramming.macros
+- compilation (orthogonal to Lein) https://clojure.org/reference/compilation
