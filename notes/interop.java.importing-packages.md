@@ -2,10 +2,10 @@
 id: rdlpy5ql69w2onschha10dw
 title: Importing Packages
 desc: ''
-updated: 1681401809996
+updated: 1681402982856
 created: 1681400376889
 ---
-There is an `import` function but it's most common to use the namespace declaration:
+There is an `import` function but it's most common to use `:import` in your namespace declaration:
 
 ```clojure
 (ns pirate.talk

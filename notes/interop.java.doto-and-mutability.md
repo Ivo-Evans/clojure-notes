@@ -2,7 +2,7 @@
 id: hfxaxnw4mprfa2qllox8awl
 title: Doto and Mutability
 desc: ''
-updated: 1681401358041
+updated: 1681402951416
 created: 1681400911066
 ---
 Clojure provides the `doto` macro to let you work more easily with mutable data structures:
@@ -13,4 +13,4 @@ Clojure provides the `doto` macro to let you work more easily with mutable data 
   (println stack))
 ```
 
-Note that this won't work in a repl, as far as I can tell. But it did work inside a namespace run by lein. 
+Note that this won't work in a repl, as far as I can tell. But it did work inside a namespace run with lein. 

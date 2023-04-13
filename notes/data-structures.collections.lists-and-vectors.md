@@ -2,7 +2,7 @@
 id: qz6xnujlv25abvwb25hrxq3
 title: Lists and Vectors
 desc: ''
-updated: 1680441939992
+updated: 1681403354809
 created: 1679583006762
 ---
 
@@ -35,4 +35,4 @@ Another key difference between lists and vectors is that vectors are designed fo
 
 
 
-While both vectors and lists support `seq`, vectors also support `rseq`, which ret>urns the sequence in reverse order. 
+While both vectors and lists support `seq`, vectors also support `rseq`, which returns the sequence in reverse order. 

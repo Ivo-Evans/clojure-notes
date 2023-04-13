@@ -2,7 +2,7 @@
 id: fuowjlnkxs80t23y35c8k8q
 title: Type Validation
 desc: ''
-updated: 1678990998770
+updated: 1681403969215
 created: 1678989447041
 ---
 
@@ -19,3 +19,5 @@ Clojure has a built in mechanism to validate input and output types, preconditio
 (times-n 2 4) ;; throws
 (times-n 2 (fn [] nil)) ;; throws
 ```
+
+A popular library that does the same thing is [prismatic/schema](https://github.com/plumatic/schema), confusingly called `plumatic/schema` on GitHub. 

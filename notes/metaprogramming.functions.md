@@ -2,11 +2,11 @@
 id: 3efp2v5brxrx5sxlp6l9l1s
 title: Functions
 desc: ''
-updated: 1680514400669
+updated: 1681403116523
 created: 1680514297374
 ---
 
-Clojure ships a set of functions that enable metaprogramming, including (but not limited to) the one's below
+Clojure ships a set of functions that enable metaprogramming, including (but not limited to) the ones below
 
 
 ```clojure

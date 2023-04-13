@@ -2,11 +2,11 @@
 id: vw3kxjphkcwhw1129c965jw
 title: S Expressions
 desc: ''
-updated: 1678991162898
+updated: 1681403235368
 created: 1678722640274
 ---
 
-An s-expression, short for symbolic expression and often shorted to sexp or sexpr, is probably Clojure's most basic syntactic unit. An s-expression is either a bare literal, or a list:
+An s-expression, short for symbolic expression and often shortened to sexp or sexpr, is probably Clojure's most basic syntactic unit. An s-expression is either a bare literal, or a list:
 
 ```clojure
 ;; an s-expression (literal)

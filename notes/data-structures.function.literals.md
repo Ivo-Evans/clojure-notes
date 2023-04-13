@@ -2,7 +2,7 @@
 id: kggvxt8mmaouf2fddetvs5c
 title: Literals
 desc: ''
-updated: 1678991095920
+updated: 1681403519192
 created: 1678723596968
 ---
 
@@ -17,7 +17,7 @@ There are lots of ways to create functions:
 #(apply + %&)
 ```
 
-Of these, __only__ `defn` and `defn-` functions are practical for creating frequently reused functions. The `(fn name args body)` syntax creates the `name` inside the function's closure, so it is only useful for recursion.
+Of these, only `defn` and `defn-` functions are practical for creating frequently reused functions. The `(fn name args body)` syntax creates the `name` inside the function's closure, so it is only useful for recursion.
 
 Therefore, broadly speaking, we can break these function types down into named functions and anonymous functions, where `defn` and `defn-` functions are named and `fn` and `#` functions are anonymous. 
 
@@ -36,6 +36,12 @@ As a result, `#` functions which simply return values, without doing anything to
 
 ```clojure
 (#(4)) ;; java.lang.Long cannot be cast to clojure.lang.IFn
+```
+
+(you have to do something like)
+
+```clojure
+(#((constantly 4)))
 ```
 
 
