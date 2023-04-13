@@ -1,6 +1,6 @@
 ---
 id: ny17qu6jit9rshavdmjo3gd
-title: Instance Methods
+title: Using Instance Methods
 desc: ''
 updated: 1681400576254
 created: 1681400339157
